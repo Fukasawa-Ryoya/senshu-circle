@@ -12,11 +12,11 @@
 */
 
 
-Route::get('/','CircleController@show');
+Route::GET('/','CircleController@show');
 
-Route::get('/circle/{id}','CircleController@showDetail');
+Route::GET('/circle/{id}','CircleController@showDetail');
 
-Route::get('/category/{category}','CircleController@showCategory');
-Route::get('/{type}','CircleController@showType');
+Route::GET('/category/{category}','CircleController@showCategory');
+Route::GET('/{type}','CircleController@showType');
 
 Route::POST('/result','CircleController@search');
