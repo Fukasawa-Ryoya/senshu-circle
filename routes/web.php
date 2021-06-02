@@ -17,6 +17,6 @@ Route::GET('/','CircleController@show');
 Route::GET('/circle/{id}','CircleController@showDetail');
 
 Route::GET('/category/{category}','CircleController@showCategory');
-Route::GE('/{type}','CircleController@showType');
+Route::GET('/{type}','CircleController@showType');
 
 Route::POST('/result','CircleController@search');
