@@ -21,7 +21,7 @@
         <span>/</span>
         <li><a href="#time-place">日時・場所</a></li>
         <span>/</span>
-        <li><a href="#people-ratio">人数・男女比</a></li>
+        <li><a href="#people-ratio">人数・男女</a></li>
         <span>/</span>
         <li><a href="#link">リンク</a></li>
       </ul>
@@ -46,8 +46,8 @@
       <p class="text">{{ $circle->people }}人</p>
     </div>
     <div class="ratio">
-      <span class="title">男女比</span>
-      <p class="text">{{ $circle->ratio }}</p>
+      <span class="title">男女</span>
+      <p class="text">男{{ $circle->male }}・女{{ $circle->female }}</p>
     </div>
     <div id="link" class="link-wrap">
       <span class="title">リンク</span>
@@ -57,6 +57,9 @@
         @endif
         @if (!$circle->instagram == null)
           <a class="link" href="{{ $circle->instagram }}"><i class="fab fa-instagram"></i></a>
+        @endif
+        @if (!$circle->link == null)
+          <a class="link" href="{{ $circle->link }}"><i class="fas fa-link"></i></a>
         @endif
       </div>
     </div>

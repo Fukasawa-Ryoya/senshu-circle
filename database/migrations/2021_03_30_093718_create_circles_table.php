@@ -19,9 +19,11 @@ class CreateCirclesTable extends Migration {
             $table->string('date');
             $table->string('place');
             $table->integer('people');  //人数
-            $table->string('ratio'); //男女比
+            $table->integer('male'); //男
+            $table->integer('female');//女
             $table->string('twitter');  //SNSリンク
             $table->string('instagram');  //SNSリンク
+            $table->string('link');//その他のリンク
             $table->string('category');  //スポーツなど
             $table->string('type');  //サッカーなど
             $table->string('authorization');
