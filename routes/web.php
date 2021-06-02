@@ -12,7 +12,7 @@
 */
 
 
-Route::GET('/','CircleController@show');
+Route::GEt('/','CircleController@show');
 
 Route::GET('/circle/{id}','CircleController@showDetail');
 
