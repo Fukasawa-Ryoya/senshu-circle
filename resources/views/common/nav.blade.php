@@ -20,8 +20,17 @@
           <li><a href="/サッカー">
               <p>サッカー</p>
             </a></li>
-          <li><a href="/テニス">
-              <p>テニス</p>
+            <li><a href="/ダンス">
+              <p>ダンス</p>
+            </a></li>
+            <li><a href="/バドミントン">
+              <p>バドミントン</p>
+            </a></li>
+            <li><a href="/フットサル">
+              <p>フットサル</p>
+            </a></li>
+            <li><a href="/ラクロス">
+              <p>ラクロス</p>
             </a></li>
         </div>
       </div>
@@ -36,12 +45,7 @@
         </div>
       </li>
       <div class="type-wrap">
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
+
       </div>
     </ul>
     <ul class="categories">
@@ -54,12 +58,7 @@
         </div>
       </li>
       <div class="type-wrap">
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
+
       </div>
     </ul>
     <ul class="categories">
@@ -71,12 +70,7 @@
         </div>
       </li>
       <div class="type-wrap">
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
+
       </div>
     </ul>
     <ul class="categories">
@@ -88,118 +82,16 @@
         </div>
       </li>
       <div class="type-wrap">
-        <li><a href="/あああ">
-            <p>あああ</p>
+        <li><a href="/サバイバルゲーム">
+            <p>サバイバルゲーム</p>
           </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
-          </a></li>
-        <li><a href="/あああ">
-            <p>あああ</p>
+        <li><a href="/ディズニー">
+            <p>ディズニー</p>
           </a></li>
       </div>
     </ul>
     <ul class="categories">
-      <li class="category-title"><a href="/inquiry">
+      <li class="category-title"><a href="https://twitter.com/sen__cir">
           <p class="category">お問い合わせ</p>
         </a></li>
     </ul>
