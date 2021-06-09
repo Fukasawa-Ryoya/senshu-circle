@@ -30,7 +30,7 @@
   @include('common.header')
   <div id="fixed-wrap">
     <main>
-      @include('categories')
+      @include('width1025_categories')
       <div class="main-inner">
         <div class="title-content">
           <a href="/">
