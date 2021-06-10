@@ -31,86 +31,100 @@ class CirclesTableSeeder extends Seeder {
             'authorization'=>''
         ]);
         DB::table('circles')->insert([
-            'name' => 'テニスサークル',
-            'image' => 'テニス.jpg',
-
-            'content' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis quidem aspernatur quibusdam
-            magnam dolor
-            explicabo, nihil quaerat sequi necessitatibus est perferendis, molestias veritatis esse. Reiciendis cumque rem
-            dolores
-            sequi consectetur.',
-            'date' => '毎週火・木',
-            'place' => 'ドラゴンパーク',
-            'people' => '30',
-            'male'=>'50',
-            'female'=>'50',
-            'twitter' => 'twitter',
-            'instagram' => 'instagram',
-            'link'=>'link',
+            'name' => 'Senshu Dance Crew(SD-C)',
+            'image' => 'Senshu Dance Crew(SD-C).jpg',
+            'content' => 'ダンス(HIPHOP / Jazz / HOUSE / BREAK / POP / KRUMP / JAZZ HIPHOP / R&B / Free Style)',
+            'date' => '毎週決まった曜日に練習があるわけではありません。各イベントの約1ヶ月前頃から、どのナンバーも練習が始まります！詳しい日程はナンバーごとに決めていきます！大体1つのナンバーで6.7回になると思います。',
+            'place' => '生田キャンパス、新宿や渋谷のスタジオ等',
+            'people' => '140',
+            'male'=>'60',
+            'female'=>'80',
+            'twitter' => 'https://twitter.com/oideyo_sdc',
+            'instagram' => 'https://www.instagram.com/sdcgallery',
+            'link'=>'',
             'category' => 'スポーツ',
-            'type' =>'テニス',
+            'type' =>'ダンス',
+            'authorization'=>''
+        ]);
+        DB::table('circles')->insert([
+            'name' => 'Senshu Practical Airsoft Circle (SPAC)',
+            'image' => 'Senshu Practical Airsoft Circle (SPAC).jpg',
+            'content' => '主に専修大学のメンバーを中心に、月に1~2回のサバイバルゲーム参加を行っています。',
+            'date' => '月に1〜2回',
+            'place' => '関東一帯のサバイバルゲームフィールド',
+            'people' => '14',
+            'male'=>'13',
+            'female'=>'1',
+            'twitter' => 'https://twitter.com/sabage_senshu',
+            'instagram' => 'https://www.instagram.com/spac_airsoft',
+            'link'=>'link',
+            'category' => 'その他',
+            'type' =>'サバイバルゲーム',
+            'authorization'=>''
+        ]);
+        DB::table('circles')->insert([
+            'name' => 'Glee 専修フットサルサークル',
+            'image' => 'Glee 専修フットサルサークル.jpg',
+            'content' => 'コートレンタルしてフットサル、サークル内で仲間を見つけて個サル参加',
+            'date' => '週1程度(不定期)',
+            'place' => "主に多摩川球's倶楽部(登戸)、フットサラ町田など…",
+            'people' => '6',
+            'male'=>'6',
+            'female'=>'0',
+            'twitter' => 'https://twitter.com/glee_su2021',
+            'instagram' => 'https://www.instagram.com/glee_futsal_circle',
+            'link'=>'',
+            'category' => 'スポーツ',
+            'type' =>'フットサル',
+            'authorization'=>''
+        ]);
+        DB::table('circles')->insert([
+            'name' => '男子ラクロス愛好会',
+            'image' => '男子ラクロス愛好会.jpg',
+            'content' => 'リーグ戦での勝利に向けて日々練習中',
+            'date' => '日月水木土（平日7-9,土日8-11）',
+            'place' => '菅多目的広場（矢野口駅近く）',
+            'people' => '28',
+            'male'=>'25',
+            'female'=>'3',
+            'twitter' => 'https://twitter.com/senshulaxfresh',
+            'instagram' => 'https://www.instagram.com/senshulax_fresh',
+            'link'=>'',
+            'category' => 'スポーツ',
+            'type' =>'ラクロス',
             'authorization'=>'true'
         ]);
         DB::table('circles')->insert([
-            'name' => 'サッカーサークル２',
-            'image' => 'サッカー2.jpg',
-            'content' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis quidem aspernatur quibusdam
-            magnam dolor
-            explicabo, nihil quaerat sequi necessitatibus est perferendis, molestias veritatis esse. Reiciendis cumque rem
-            dolores
-            sequi consectetur.',
-            'date' => '毎週火・木',
-            'place' => 'ドラゴンパーク',
-            'people' => '60',
-            'male'=>'50',
-            'female'=>'50',
-            'twitter' => 'twitter',
-            'instagram' => 'null',
-            'link'=>'link',
-            'category' => 'スポーツ',
-            'type' =>'サッカー',
+            'name' => 'SDF(専修大学ディズニーサークル)',
+            'image' => 'SDF(専修大学ディズニーサークル).jpg',
+            'content' => '映画鑑賞、TDR訪問、花火 etc',
+            'date' => '不定期',
+            'place' => 'オンライン 生田キャンパス TDR',
+            'people' => '13',
+            'male'=>'7',
+            'female'=>'6',
+            'twitter' => 'https://twitter.com/disney_senshu',
+            'instagram' => 'https://www.instagram.com/sdf_senshu',
+            'link'=>'',
+            'category' => 'その他',
+            'type' =>'ディズニー',
             'authorization'=>''
         ]);
-        DB::table('circles')->insert([
-            'name' => 'サークル名',
-            'image' => 'サークル.jpg',
-            'content' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis quidem aspernatur quibusdam
-            magnam dolor
-            explicabo, nihil quaerat sequi necessitatibus est perferendis, molestias veritatis esse. Reiciendis cumque rem
-            dolores
-            sequi consectetur.',
-            'date' => '毎週火・木',
-            'place' => 'ドラゴンパーク',
-            'people' => '60',
-            'male'=>'50',
-            'female'=>'50',
-            'twitter' => 'twitter',
-            'instagram' => 'instagram',
-            'link'=>'link',
-            'category' => 'サークル',
-            'type' =>'サークル',
-            'authorization'=>''
-
-        ]);
-        DB::table('circles')->insert([
-            'name' => 'サークル名',
-            'image' => 'サークル.jpg',
-            'content' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis quidem aspernatur quibusdam
-            magnam dolor
-            explicabo, nihil quaerat sequi necessitatibus est perferendis, molestias veritatis esse. Reiciendis cumque rem
-            dolores
-            sequi consectetur.',
-            'date' => '毎週火・木',
-            'place' => 'ドラゴンパーク',
-            'people' => '60',
-            'male'=>'50',
-            'female'=>'50',
-            'twitter' => 'twitter',
-            'instagram' => 'instagram',
-            'link'=>'link',
-            'category' => 'サークル',
-            'type' =>'サークル',
-            'authorization'=>''
-        ]);
+        // DB::table('circles')->insert([
+        //     'name' => '',
+        //     'image' => '.jpg',
+        //     'content' => '',
+        //     'date' => '',
+        //     'place' => '',
+        //     'people' => '',
+        //     'male'=>'',
+        //     'female'=>'',
+        //     'twitter' => 'https://twitter.com/',
+        //     'instagram' => 'https://www.instagram.com/',
+        //     'link'=>'',
+        //     'category' => '',
+        //     'type' =>'',
+        //     'authorization'=>''
+        // ]);
     }
 }

@@ -8,9 +8,6 @@
   </li>
   <div>
     <div class="type-wrap">
-      <li><a href="/サッカー">
-          <p>サッカー</p>
-        </a></li>
         <li><a href="/ダンス">
           <p>ダンス</p>
         </a></li>

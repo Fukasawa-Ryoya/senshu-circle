@@ -68,7 +68,6 @@
       function circlesAuthorization() {
         circles = @json($circles_category_authorization);
       }
-      circleList();
 
     </script>
   @endpush
@@ -94,7 +93,6 @@
       function circlesAuthorization() {
         circles = @json($circles_type_authorization);
       }
-      circleList();
 
     </script>
   @endpush
@@ -122,7 +120,6 @@
       function circlesAuthorization() {
         circles = @json($results_authorization);
       }
-      circleList();
 
     </script>
   @endpush

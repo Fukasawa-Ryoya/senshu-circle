@@ -54,9 +54,12 @@
 .activity-content {
     width: 100%;
 }
-.time,
+.time,.place{
+    width: 100%;
+}
+/* .time, */
 .people,
-.place,
+/* .place, */
 .ratio,
 .link-wrap {
     width: 50%;
