@@ -77,7 +77,6 @@ class CircleController extends Controller {
     }
 
     public function search(Request $request) {
-        // dd($request->search);
         $results = Circle::where('name', 'like', "%{$request->search}%")
             ->orWhere('category', 'like', "%{$request->search}%")
             ->orWhere('type', 'like', "%{$request->search}%")->orderBy('name', 'asc')->get();
