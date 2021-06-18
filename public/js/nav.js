@@ -59,7 +59,7 @@ $(".nav-menu").on("click", () => {
             })
             // navButton内の.attr('class')のためにつけている
             .addClass("active");
-        $(".menu").animate({ marginTop: "1000px" }, 400).addClass("menu-active");
+        $(".menu").animate({ marginTop: "300px" }, 400).addClass("menu-active");
         // menuが開いているときはサークル詳細ページに遷移させなくする。
         $(".circle-wrap a").on("click", (e) => {
             e.preventDefault();
