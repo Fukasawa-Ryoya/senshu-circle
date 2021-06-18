@@ -86,6 +86,8 @@ $(".nav-menu").on("click", () => {
 });
 // メニュー以外をクリックしたらメニューを閉じる
 $(window).on("click", (e) => {
+    $('.type-wrap').slideUp();
+    $('.fa-caret-wrap').find('.fas').removeClass("fa-caret-up").addClass("fa-caret-down");
     if (
         !$(e.target).closest(".menu").length &&
         !$(e.target).closest(".nav-wrap").length &&
