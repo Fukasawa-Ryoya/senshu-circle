@@ -44,10 +44,12 @@ function scrTopFun() {
     scrTop = $(window).scrollTop();
 }
 
-
 $(".nav-menu").on("click", () => {
-    $('.type-wrap').slideUp();
-    $('.fa-caret-wrap').find('.fas').removeClass("fa-caret-up").addClass("fa-caret-down");
+    $(".type-wrap").slideUp();
+    $(".fa-caret-wrap")
+        .find(".fas")
+        .removeClass("fa-caret-up")
+        .addClass("fa-caret-down");
     if (!$(".menu").hasClass("menu-active")) {
         // slickが用いられているところでposition:fixedをするとバグるため消す。
         $(".slider").css({ display: "none" });
@@ -86,13 +88,16 @@ $(".nav-menu").on("click", () => {
 });
 // メニュー以外をクリックしたらメニューを閉じる
 $(window).on("click", (e) => {
-    $('.type-wrap').slideUp();
-    $('.fa-caret-wrap').find('.fas').removeClass("fa-caret-up").addClass("fa-caret-down");
     if (
         !$(e.target).closest(".menu").length &&
         !$(e.target).closest(".nav-wrap").length &&
         $(".menu").hasClass("menu-active")
     ) {
+        $(".type-wrap").slideUp();
+        $(".fa-caret-wrap")
+            .find(".fas")
+            .removeClass("fa-caret-up")
+            .addClass("fa-caret-down");
         $(".slider").css({ display: "block" });
         $("#fixed-wrap")
             .css({
