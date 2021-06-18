@@ -25,6 +25,10 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   @stack('css')
 </head>
+@php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+@endphp
 
 <body id="body">
   @include('common.header')
