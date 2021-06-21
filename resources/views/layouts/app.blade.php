@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="discription" content="専修大学の非公式サークル一覧サイトです。">
+  <meta name="google-site-verification" content="KhAb-GdGrC7L18a-pDTFVGfShJ0poisG6U17toZV0z8" />
   <title>専修サークル</title>
   <script src="https://kit.fontawesome.com/ccef782b63.js" crossorigin="anonymous"></script>
   {{-- css --}}
