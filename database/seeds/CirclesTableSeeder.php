@@ -96,7 +96,7 @@ class CirclesTableSeeder extends Seeder {
         ]);
         DB::table('circles')->insert([
             'name' => 'SDF(専修大学ディズニーサークル)',
-            'image' => 'SDF(専修大学ディズニーサークル).jpg',
+            'image' => '画像なし.jpg',
             'content' => '映画鑑賞、TDR訪問、花火 etc',
             'date' => '不定期',
             'place' => 'オンライン 生田キャンパス TDR',
