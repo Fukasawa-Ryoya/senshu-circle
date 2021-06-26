@@ -110,6 +110,54 @@ class CirclesTableSeeder extends Seeder {
             'type' =>'ディズニー',
             'authorization'=>''
         ]);
+        DB::table('circles')->insert([
+            'name' => '該当サークルなし',
+            'image' => '画像なし.jpg',
+            'content' => 'なし',
+            'date' => 'なし',
+            'place' => 'なし',
+            'people' => '0',
+            'male'=>'0',
+            'female'=>'0',
+            'twitter' => 'https://twitter.com/',
+            'instagram' => 'https://www.instagram.com/',
+            'link'=>'',
+            'category' => '文化・芸術',
+            'type' =>'',
+            'authorization'=>''
+        ]);
+        DB::table('circles')->insert([
+            'name' => '該当サークルなし',
+            'image' => '画像なし.jpg',
+            'content' => 'なし',
+            'date' => 'なし',
+            'place' => 'なし',
+            'people' => '0',
+            'male'=>'0',
+            'female'=>'0',
+            'twitter' => 'https://twitter.com/',
+            'instagram' => 'https://www.instagram.com/',
+            'link'=>'',
+            'category' => '学問',
+            'type' =>'',
+            'authorization'=>''
+        ]);
+        DB::table('circles')->insert([
+            'name' => '該当サークルなし',
+            'image' => '画像なし.jpg',
+            'content' => 'なし',
+            'date' => 'なし',
+            'place' => 'なし',
+            'people' => '0',
+            'male'=>'0',
+            'female'=>'0',
+            'twitter' => 'https://twitter.com/',
+            'instagram' => 'https://www.instagram.com/',
+            'link'=>'',
+            'category' => '国際交流・ボランティア',
+            'type' =>'',
+            'authorization'=>''
+        ]);
         // DB::table('circles')->insert([
         //     'name' => '',
         //     'image' => '.jpg',
