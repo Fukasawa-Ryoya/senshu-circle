@@ -41,25 +41,27 @@ if (circles.length) {
     function display() {
         for (let i = 0; i < circles.length; i++) {
             const circle = circles[i];
-            let html = `
-                <a href="/circle/${circle.id}">
-              <div class="image-content">
-                <img class="circle-image" src="/storage/circleImg/${circle.image}" alt="サークル画像">
-              </div>
-              <p class="circle-name">${circle.name}</p>
-          `;
-        //   公認サークルだったらスタンプを追加する
-        // </a>は公認スタンプをクリックできるようにするため
-            if (circle.authorization === "true") {
-                html += `<img class="authorization" src="/storage/img/公認スタンプ.png" alt="公認スタンプ">
-                </a>`;
-            } else {
-                html += "</a>";
+            if (!(circle.name == "該当サークルなし")) {
+                let html = `
+                    <a href="/circle/${circle.id}">
+                  <div class="image-content">
+                    <img class="circle-image" src="/storage/circleImg/${circle.image}" alt="サークル画像">
+                  </div>
+                  <p class="circle-name">${circle.name}</p>
+              `;
+                //   公認サークルだったらスタンプを追加する
+                // </a>は公認スタンプをクリックできるようにするため
+                if (circle.authorization === "true") {
+                    html += `<img class="authorization" src="/storage/img/公認スタンプ.png" alt="公認スタンプ">
+                    </a>`;
+                } else {
+                    html += "</a>";
+                }
+                $(".circle-list").append(
+                    `<li class="circle-wrap">` + html + `</li>`
+                );
+                calHeight();
             }
-            $(".circle-list").append(
-                `<li class="circle-wrap">` + html + `</li>`
-            );
-            calHeight();
         }
         circleWrapHover();
     }
