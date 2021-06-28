@@ -158,6 +158,23 @@ class CirclesTableSeeder extends Seeder {
             'type' =>'',
             'authorization'=>''
         ]);
+        DB::table('circles')->insert([
+            'name' => 'RUSH',
+            'image' => 'RUSH.jpg',
+            'content' => 'バスケ、飲み会、観光、メリハリのある人気のサークルです!
+            合宿、イベント盛りだくさんです! 先輩後輩関係なく仲のいいサークルです！初心者大歓迎、バスケしたい人大募集!',
+            'date' => '日曜日19時〜21時',
+            'place' => '菅生中学校',
+            'people' => '121',
+            'male'=>'85',
+            'female'=>'36',
+            'twitter' => 'https://twitter.com/rush_3712',
+            'instagram' => 'https://www.instagram.com/senshu_rush',
+            'link'=>'',
+            'category' => 'スポーツ',
+            'type' =>'バスケットボール',
+            'authorization'=>''
+        ]);
         // DB::table('circles')->insert([
         //     'name' => '',
         //     'image' => '.jpg',
